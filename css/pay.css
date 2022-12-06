@@ -1,0 +1,237 @@
+/* body {
+    background: rgb(194, 194, 194);
+}
+
+.container {
+    margin-left: 40px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+label {
+    color: green;
+    display: block;
+    font-size: 1rem;
+    padding: 7px;
+}
+
+input {
+    border: none;
+    width: 20%;
+    height: 30px;
+}
+
+button {
+    margin-top: 7px;
+    display: block;
+    color: white;
+    background-color: rgb(91, 208, 91);
+    width: 10%;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+*/
+
+a {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: white;
+    color: #111;
+}
+
+tr:nth-child(odd) {
+    background: #111;
+    color: white;
+}
+
+th {
+    background: #111;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgb(186, 185, 185);
+    background: #ffd9b0;
+    font-weight: 400;
+    font-family: Poppins;
+    margin: 0px;
+}
+
+.main {
+    padding: 115px 0;
+    position: relative;
+}
+
+.container {
+    width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+
+form {
+    padding: 72px 70px 70px 70px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-input {
+    padding-top: 21px;
+}
+
+.form-label {
+    position: absolute;
+    transition: 0.25s ease;
+    -moz-transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    -ms-transition: 0.25s ease;
+    color: #bebebe;
+    left: 0;
+    top: 23px;
+}
+
+input {
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    padding-top: 5px;
+    -webkit-appearance: none;
+}
+
+input:focus+.form-label,
+input:valid+.form-label {
+    top: 1px;
+    font-size: 11px;
+    color: #edb77d;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    border: none;
+    font-family: Poppins;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #999;
+    padding: 4px 0;
+}
+
+input:focus,
+select:focus {
+    border-bottom: 1px solid #edb77d;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px transparent inset;
+}
+
+input::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+input::-moz-placeholder {
+    color: #bebebe;
+}
+
+input:-ms-input-placeholder {
+    color: #bebebe;
+}
+
+input:-moz-placeholder {
+    color: #bebebe;
+}
+
+.submit {
+    width: auto;
+    background: #edb77d;
+    color: #fff;
+    padding: 15px 43px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #e79e50;
+}
+
+.booking-content {
+    flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+.booking-image {
+    width: 60%;
+    margin-bottom: -8px;
+}
+
+.booking-img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.booking-form {
+    width: 40%;
+    background: #111;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+display-flex,
+.booking-content {
+    display: flex;
+    display: -webkit-flex;
+}
